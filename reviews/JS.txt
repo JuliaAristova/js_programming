@@ -1,0 +1,74 @@
+Statically Type programming langusages - type safety, 
+when variable is declared you indicate data type and it cannot be changed.
+Data type is translated yo binary code by compiler during compilation.
+
+- Java
+- C#
+- TypeScript
+- C++
+
+Example: 
+int score;
+
+Dynamically Type languages - data type can be changed.
+These programming languages using Interpreter. 
+Interpeter translate to binary code during the runtime.
+
+- JavaScript
+- Python
+Example: 
+let score;      -- not indication on data type
+
+========================
+Interview Questions:
+
+let vs var
+array
+string
+set 
+map 
+constructor 
+inheritance 
+super()
+promise: - Future value or Error (50/50); 
+asynch & await
+
+
+========================
+Word broke problem
+
+Given 
+
+
+========================
+ASYNCHRONOUSE - PROMISE 
+
+Promise represents a value that will be available either now, or
+in the Future, or never
+
+Task01: 10 seconds
+Step1: Make a promise to the value
+Step2
+Step3
+Step4
+Step5
+Step6 ==> return the value
+
+Task02: 7 seconds
+Step1
+Step2
+Step3
+Step4: Needs the valie that Task01 is returning ==> waits for the promised value
+Step5
+
+Task03: 5 seconds
+Step1
+Step2
+Step3: Needs the valie that Task01 is returning  ==> waits for the promised value
+Step4
+
+Task04: 6seconds
+Step1
+Step2: Needs the valie that Task01 is returning  ==> waits for the promised value
+Step3
+Step4
