@@ -58,3 +58,11 @@ let employeeSalary = 100_000;
 
 let employeeInfo = `My name is ${employeeName}, my salary is \$${employeeSalary}.`;
 console.log(employeeInfo);
+
+console.log("-----------------");
+let str2 = "Programming Languages: Java, JavaScript, Python, C++";
+let words = str2.replaceAll(',', '').split(" ");
+console.log(words);  
+let repeated = words[2].repeat(2);
+console.log(repeated);
+console.log(repeated.includes("Java"));

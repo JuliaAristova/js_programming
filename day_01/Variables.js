@@ -31,5 +31,10 @@ var d = 50;
 var d = 60; // This will not throw an error, as 'var' allows redeclaration in the same scope
 console.log(d);
 
+/*
+constant variables are used in two cases:
+- to declare unchangeable variables whose values are known at the stage of program writing, and
+- to declare variables that do not need to be changed during program execution.
+*/
 const PI = 3.14; //recommended to use uppercase for constants
 // PI = 3.14159;  // This will throw an error, as 'const' does not allow reassignment

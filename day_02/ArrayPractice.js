@@ -25,3 +25,7 @@ employees.shift(); // remove first element
 console.log(employees);
 employees.pop(); // remove last element
 console.log(employees); 
+
+employees.splice(2, 2); // remove 2 elements from index 2
+console.log(employees);
+
