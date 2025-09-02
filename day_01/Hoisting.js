@@ -5,6 +5,11 @@ x = 321; // Usage because a is already initialized
 
 let y = 123; // Declaration + Initialization
 
+/*
+Hoisting is a JavaScript mechanism where 
+variables and function declarations are moved to the top 
+of their scope before code execution.
+*/
 let a = 10;
 let b;
 b = 20;

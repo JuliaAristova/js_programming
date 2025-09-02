@@ -1,3 +1,6 @@
+//variables are dynamically typed
+//type is not fixed
+//type is inferred at runtime
 let studentName;
 let studentAge = 20;
 let isFullTime = true;
@@ -31,6 +34,12 @@ var d = 50;
 var d = 60; // This will not throw an error, as 'var' allows redeclaration in the same scope
 console.log(d);
 
+//weak typed. Implicit conversion
+let s = 10;
+let s2 = "20";
+let s3 = s + s2;
+console.log(s3);
+console.log(typeof s3); // Output: string
 /*
 constant variables are used in two cases:
 - to declare unchangeable variables whose values are known at the stage of program writing, and
@@ -38,3 +47,22 @@ constant variables are used in two cases:
 */
 const PI = 3.14; //recommended to use uppercase for constants
 // PI = 3.14159;  // This will throw an error, as 'const' does not allow reassignment
+
+
+let undefinedVar;
+console.log(typeof undefinedVar); // "undefined"
+
+let nullVar = null;
+console.log(typeof nullVar); // "object"
+
+let symbol = Symbol("unique");
+console.log(typeof symbol); // "symbol"
+
+let integerNumber = Number.MAX_SAFE_INTEGER;
+console.log(integerNumber);  // 9007199254740991
+
+console.log(integerNumber * integerNumber);
+// 8.112963841460666e+31
+
+let bigIntegerNumber = BigInt(Number.MAX_SAFE_INTEGER);
+console.log(bigIntegerNumber * bigIntegerNumber);
